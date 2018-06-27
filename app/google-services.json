@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "176605439402",
+    "firebase_url": "https://fir-1-abd0f.firebaseio.com",
+    "project_id": "fir-1-abd0f",
+    "storage_bucket": "fir-1-abd0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176605439402:android:031e3af682f3b613",
+        "android_client_info": {
+          "package_name": "com.alien.islam.firebase1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176605439402-k2148pq9n4jvhl40psbm5sj1ku1k61sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDS3aY9LuOC6tD3sMjLA8QSLUm4L6cAms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
