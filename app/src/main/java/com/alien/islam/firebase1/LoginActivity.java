@@ -21,6 +21,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class LoginActivity extends AppCompatActivity {
 
     Button loginButton;
+    Button register;
     ProgressBar loginProgress;
     EditText text , pass_text ;
 
@@ -36,10 +37,12 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         loginButton = findViewById(R.id.login_button);
+        register = findViewById(R.id.register_button);
         loginProgress = findViewById(R.id.login_progress);
         loginProgress.setVisibility(View.INVISIBLE);
         text = findViewById(R.id.login_text);
         pass_text = findViewById(R.id.login_pass);
+
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -51,6 +54,14 @@ public class LoginActivity extends AppCompatActivity {
                 loginProgress.setVisibility(View.VISIBLE);
                 loginButton.setVisibility(View.INVISIBLE);
                 SignIn();
+            }
+        });
+
+        register.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent signup = new Intent(LoginActivity.this, SignUpActivity.class);
+                startActivity(signup);
             }
         });
     }
