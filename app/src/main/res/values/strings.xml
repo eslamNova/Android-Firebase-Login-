@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FireBase1</string>
+    
+    <array name="type">
+        <item>Donner</item>
+        <item>Acceptor</item>
+    </array>
 </resources>

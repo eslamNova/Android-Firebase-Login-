@@ -10,7 +10,7 @@
         android:id="@+id/login_act_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFD700"
+        android:background="#ffffff"
         app:title="Alien Register"></android.support.v7.widget.Toolbar>
 
     <android.support.constraint.Guideline
