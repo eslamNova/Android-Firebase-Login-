@@ -52,7 +52,7 @@ public class DbActivity extends AppCompatActivity {
         String Gender = gender.getText().toString();
         Boolean type2 = false;
         String Type = type.getSelectedItem().toString();
-        if(Type == "Donner")
+        if(Type.equalsIgnoreCase("Donner"))
             type2 = true;
 
         String id = usersDB.push().getKey();
